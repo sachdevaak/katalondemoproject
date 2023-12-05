@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_POST</name>
+   <tag></tag>
+   <elementGuidId>f3c55b4d-2054-4229-9c4c-f3f473db6955</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='operations-store-placeOrder']/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#operations-store-placeOrder > div.opblock-summary.opblock-summary-post > button.opblock-summary-control > span.opblock-summary-method</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>07592634-04b4-446d-b6d1-03cce1d567c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>opblock-summary-method</value>
+      <webElementGuid>c052edd4-9786-4efb-a227-55ddbf898f37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>POST</value>
+      <webElementGuid>65749947-03dd-4022-a6c9-591eb34b3968</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;operations-store-placeOrder&quot;)/div[@class=&quot;opblock-summary opblock-summary-post&quot;]/button[@class=&quot;opblock-summary-control&quot;]/span[@class=&quot;opblock-summary-method&quot;]</value>
+      <webElementGuid>bc1ccb92-029f-4a1f-bc7e-a31d27bdf327</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='operations-store-placeOrder']/div/button/span</value>
+      <webElementGuid>166ae269-7a0d-4136-ac98-8d7b467560f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/div/div/div/span/div/div/button/span</value>
+      <webElementGuid>c9124e6b-6e9f-4cd6-93a7-20d7bc6b57d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'POST' or . = 'POST')]</value>
+      <webElementGuid>78a981ab-1516-4a13-82b4-e6cba291dffd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

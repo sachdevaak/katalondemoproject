@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_POSTpetpetIduploadImageuploads an image</name>
+   <tag></tag>
+   <elementGuidId>7c9a3266-0a65-4b81-8b4d-e0d1ea64d62a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='operations-pet-uploadFile']/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.opblock-summary-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ff1061ab-8d6a-4250-ac56-8a06f367538f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>620739e4-b892-4d9b-a37e-0feec1dc00fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>opblock-summary-control</value>
+      <webElementGuid>6cbcbbb7-fc0b-4d20-b2f7-f73af89fcb1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>POST/pet/{petId}/uploadImageuploads an image</value>
+      <webElementGuid>ad5ee297-e44c-4551-ba5e-d0c00394cb09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;operations-pet-uploadFile&quot;)/div[@class=&quot;opblock-summary opblock-summary-post&quot;]/button[@class=&quot;opblock-summary-control&quot;]</value>
+      <webElementGuid>00d893ca-6e62-4656-ba33-c3cb8d20e3ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='operations-pet-uploadFile']/div/button</value>
+      <webElementGuid>df96f3c0-a8ed-45df-a2a3-7db7b5b5f04d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/button</value>
+      <webElementGuid>0af3a0b9-baf9-4dfb-ba11-b2a49ae9e49c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'POST/pet/{petId}/uploadImageuploads an image' or . = 'POST/pet/{petId}/uploadImageuploads an image')]</value>
+      <webElementGuid>b8cc190d-d0cd-4fb5-a474-66ec0d1fb7d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
