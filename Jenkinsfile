@@ -5,8 +5,11 @@ pipeline {
         stage('Run Katalon Tests') {
             steps {
                 script {
-                    // Run Katalon Studio tests using Docker
-                     sh 'docker run -t --rm -v "/var/jenkins_home/5_KatalonTestDocker":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/Users/Akhil/Katalon Studio/DemoProject1 -retry=0 -testSuitePath="Test Suites/Suite1" -browserType="Chrome" -executionProfile="default" -apiKey="6052bbfe-f4fc-4553-b334-6769d9eff78b"'
+                    // Run Katalon Studio tests using Docker within Jenkins pipeline
+                    docker.image('katalonstudio/katalon')
+                        .inside('-v /var/jenkins_home/workspace/5_KatalonTestDocker:/tmp/project') {
+                            sh "katalonc.sh -projectPath=/tmp/project -retry=0 -testSuitePath='Test Suites/Suite1' -browserType='Chrome' -executionProfile='default' -apiKey='6052bbfe-f4fc-4553-b334-6769d9eff78b'"
+                        }
                 }
             }
         }
