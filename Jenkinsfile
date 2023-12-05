@@ -2,17 +2,14 @@ pipeline {
     agent any
     
     stages {
-        stage('Pull Katalon Docker Image') {
+        stage('Run Katalon Tests') {
             steps {
                 script {
-                    // Define the workspace directory
-                    def workspace = pwd()
-                    
-                    // Pull Katalon Docker image into the workspace directory
-                    sh "docker pull katalonstudio/katalon:latest"
-                    sh "docker run -v ${workspace}:/katalon/katalon_execute -t katalonstudio/katalon:latest"
+                    // Run Katalon Studio tests using Docker
+                    sh 'docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -retry=0 -testSuitePath="Test Suites/Suite1" -browserType="Chrome" -executionProfile="default" -apiKey="3315bf05-eb56-4f10-8716-6762fb652ee4"'
                 }
             }
         }
     }
 }
+
